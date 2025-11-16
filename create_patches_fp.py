@@ -11,6 +11,7 @@ import pdb
 import pandas as pd
 from tqdm import tqdm
 
+
 def stitching(file_path, wsi_object, downscale = 64):
 	start = time.time()
 	heatmap = StitchCoords(file_path, wsi_object, downscale=downscale, bg_color=(0,0,0), alpha=-1, draw_grid=False)
