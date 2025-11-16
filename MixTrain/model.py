@@ -29,6 +29,7 @@ class TransLayer(nn.Module):
         return x
 
 
+# MFFSRM
 class PPEG(nn.Module):
     def __init__(self, dim=512, num_heads=4):
         super(PPEG, self).__init__()
@@ -157,6 +158,7 @@ class BinaryClassifier(nn.Module):
         Y_prob = F.softmax(logits, dim=1)
         results_dict = {'logits': logits, 'Y_prob': Y_prob, 'Y_hat': Y_hat}
         return results_dict
+
 
 class QuadClassifier(nn.Module):
     def __init__(self):
