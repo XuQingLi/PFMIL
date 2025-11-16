@@ -44,6 +44,7 @@ class CamelyonDataset(Dataset):
     def __len__(self):
         return len(self.data)
 
+
 class ICIARDataset(Dataset):
     def __init__(self, root_dir, folders, labels, mode='train', split_ratio=0.8, seed=42):
         self.data = []
