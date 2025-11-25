@@ -38,3 +38,17 @@ python3 -u step2_teacher_student_[method_name]_distillation.py \
 ```python
 python trains.py
 ```
+## 3. Testing
+
+Evaluate the trained model on the test set.
+
+```bash
+python test.py
+```
+## 4. Visualization
+
+Visualize feature distributions using t-SNE dimensionality reduction to understand feature separability.
+
+```bash
+python t-sne.py
+```
