@@ -38,10 +38,7 @@ python3 -u step2_teacher_student_[method_name]_distillation.py \
 ```python
 python trains.py
 ```
-## 3. Testing
-
-Evaluate the trained model on the test set.
-
+### 2.3 Stage 3: Testing
 ```bash
 python test.py
 ```
